@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines creating two VMs (Virtual Machines), one running Windows Server, to act as a Domain Controller. The other VM will act as a client, running Windows 10 that will join the domain. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,7 +22,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a Virtual Network
 - Setup Domain Controller in Azure
 - Setup Client-1 in Azure
-- Join Client-1 to Domain
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -61,7 +60,6 @@ Create the Client VM (Windows 10) named “Client-1”
 </p>
 
 <br>
-<h3>Join Client-1 to the Domain Controller</h3>
 <p>
 After VM is created, set Domain Controller’s NIC Private IP address to be static
 </p>
@@ -115,7 +113,7 @@ The output for the DNS settings should show DC-1’s private IP Address
 
 <h2>Active Directory Infrastructure is Now Prepared! </h2>
 
-<b>We've successfully created two VMs (Virtual Machines), one running Windows Server, to act as a Domain Controller. The other VM joined as a client, running Windows 10.</b>
+<b>We've successfully created two VMs (Virtual Machines), one running Windows Server, to act as a Domain Controller. The other VM as a client, running Windows 10.</b>
 <br />
 <br />
 </p>
