@@ -20,8 +20,8 @@ This tutorial outlines creating two VMs (Virtual Machines), one running Windows 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create a Virtual Network
-- Setup Domain Controller in Azure
-- Setup Client-1 in Azure
+- Set up Domain Controller in Azure
+- Set up Client-1 in Azure
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -89,7 +89,6 @@ From the Azure Portal, restart Client-1
 </p>
 
 <br />
-<h3>Verify that Client-1 is joined to the Domain</h3>
 <p>
 Login to Client-1
 </p>
